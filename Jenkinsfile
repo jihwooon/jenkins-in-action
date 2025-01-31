@@ -1,6 +1,6 @@
 pipeline {
     environment {
-        dockerImageName = "sheayun/simple-echo"
+        dockerImageName = "jihwooon/jenkins-in-actions"
     }
     agent {
         kubernetes {
